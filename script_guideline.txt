@@ -1,0 +1,11 @@
+Execution without debugging mode :
+
+./script.sh ./input_video_path.mp4 ./output_video_path.mp4
+
+
+
+
+Execution with debugging mode :
+
+
+./script.sh ./input_video_path.mp4 ./output_video_path.mp4 --debugging_mode
