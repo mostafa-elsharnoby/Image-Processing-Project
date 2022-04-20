@@ -1,7 +1,6 @@
 # Image-Processing-Project
 
 ## Overview
-Detect lanes using computer vision techniques. This project is part of the [Udacity Self-Driving Car Nanodegree](https://www.udacity.com/drive), and much of the code is leveraged from the lecture notes.
 
 The following pipeline was performed for lane detection:
 
