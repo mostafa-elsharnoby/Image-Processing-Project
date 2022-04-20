@@ -1,5 +1,19 @@
 # Image-Processing-Project
 
+## Overview
+Detect lanes using computer vision techniques. This project is part of the [Udacity Self-Driving Car Nanodegree](https://www.udacity.com/drive), and much of the code is leveraged from the lecture notes.
+
+The following pipeline was performed for lane detection:
+
+* Apply a perspective transform ("birds-eye view") on original image.
+* Get region of interest for warped image.
+* Use color transforms, gradients, etc., to create a thresholded binary image.
+* Apply binary thresholding.
+* Detect lane pixels using Sliding Window Algorithm and fit to find the lane boundary.
+* Determine the curvature of the lane and vehicle position with respect to center.
+* Unwarp the detected lane boundaries back onto the original image.
+* Output visual display of the lane boundaries and numerical estimation of lane curvature and vehicle position.
+
 ## Dependencies
 * Python 3.5
 * Numpy
