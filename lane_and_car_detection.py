@@ -17,7 +17,10 @@ from scipy.ndimage import label
 
 input_video_path = sys.argv[1]
 output_video_path = sys.argv[2]
-debugging_mode = bool(sys.argv[3]=='--debugging_mode')
+if(len(sys.argv)>3):
+    debugging_mode = bool(sys.argv[3]=='--debugging_mode')
+else:
+    debugging_mode = False
 IMG_SHAPE = (720, 1280)
 
 def plot_images(original, modified, title):
