@@ -1,1 +1,1 @@
-python lane_and_object_detection.py $1 $2 $3
+python lane_and_car_detection.py $1 $2 $3
